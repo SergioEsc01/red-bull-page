@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <title>
+        Red Bull Racing
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Festive&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Kurenaido&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/f407a2f985.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+  
+        <nav>
+            <img src="./imagenes/logo1.png" alt="Logo Red Bull">
+            <ul>
+                <li class="lista"><a href=""><i class="fas fa-home"></i> Inicio</a></li>
+                <li class="lista"><a href="#info"><i class="fas fa-info"></i> Corredores</a></li>
+                <li class="lista"><a href="#contacto"><i class="far fa-id-badge"></i> Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <section class="hero">
+         <div class="hero1">
+             <h1 class="titulo">RB16B</h1>
+             <h2>Vehiculo de nuestro Piloto Max Verstappen, con El Livery en honor a nuestros socios Japoneses</h2>
+         </div>
+    </section>
+    <section class="data" id="info">
+        <h1>Nuestros Corredores </h1>
+     <div class="contenedor">
+         <div class="card"> 
+             <img src="./imagenes/mv.jpg" alt="Foto de Max Verstappen">
+<h2>Max Verstappen</h2>
+<p>Primer corredor de Red Bull</p>
+         </div>
+         <div class="card">
+             <img src="./imagenes/sp.png" alt="Foto de Sergio Perez">
+<h2>Sergio Perez</h2>
+<p>Segundo corredor de Red bull</p>
+         </div>
+         <div class="card">
+             <img src="./imagenes/descarga.jfif" alt="Foto de Alexander Albon"> 
+<h2>Alexander Albon</h2>
+<p>Corredor reserva de Red Bull</p>
+         </div>
+     </div>
+
+    </section>
+    <section  class="tablas">
+        <h2 class="merch">Ropa de Nuestros Corredores</h2>
+        <table>
+            <tbody>
+                <tr>
+                 
+                    <td>          
+                             
+                            <div class="fondo">
+                                <h3 >Remera de Max Verstappen</h3> 
+                            </div>  
+                            <img src="./imagenes/remmv.jfif" alt="Remera de Max Verstappen" class="fototab">              
+                    </td>
+                    <td>
+                        <div class="fondo">
+                            <h3 >Remera de Sergio perez</h3>
+                        </div>                        
+                        <img src="./imagenes/remsp.jfif" alt="Remera de Sergio Perez" class="fototab">
+                    </td>
+                    <td>
+                        <div class="fondo">
+                            <h3 >Remera de Alexander Albon</h3>
+                        </div>                
+                        <img src="./imagenes/remaa.jfif" alt="Remera de Alexander Albon" class="fototab">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="fondo">
+                            <h3 >Gorra de Max Verstappen</h3>
+                        </div>
+                        <img src="./imagenes/gorramv.jfif" alt="Gorra de Max Verstappen" class="fototab">
+                    </td>
+                    <td>
+                        <div class="fondo">
+                            <h3 >Gorra de Sergio perez</h3>
+                        </div>                     
+                        <img src="./imagenes/gorracp.webp" alt="Gorra de Sergio Perez" class="fototab">
+                    </td>
+                    <td>
+                        <div class="fondo">
+                            <h3 >Gorra de Alexander Albon</h3>
+                        </div>
+                        <img src="./imagenes/gorraaa.jfif" alt="Gorra de Alexander Albon" class="fototab">
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+    <section class="iframes">
+<h2>Mas Sobre Nosotros</h2>
+<h3 class="a1">Nuestro Lugar</h3>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39294.82683591933!2d-0.7278549208984374!3d52.008214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487654b105fa5473%3A0x8254900c92ce497f!2sRed%20Bull%20Racing!5e0!3m2!1ses!2sar!4v1635893680107!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<h3 class="a2">Nuestra Fabrica</h3>
+<div class="vid">
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/4yhX4fwE3W8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+    </section>
+    <section class="form1">
+<form action="contacto" class="formulario">
+    
+        <legend class="leyenda">Contactanos</legend>
+        <p>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre">
+        </p>
+        <p>
+    <label for="mail">Correo: </label>
+    <input type="email" name="Correo" id="mail">
+         </p>
+         <p>
+            <label for="age">Edad: </label>
+            <input type="number" name="Edad" id="age">
+         </p>
+         <p>
+            <legend for="Mensaje">Mensaje: </legend>
+            <textarea name="Mensaje" id="Mensaje" class="texto"></textarea>
+          </p>
+          <button type="submit">Guardar</button>
+  
+</form>
+    </section>
+    <footer id="contacto">
+        <h3>Nuestras Redes</h3>
+<div class="redes">
+    <a href="https://www.instagram.com/redbullracing/?hl=es-la" target="_blank"> <i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/redbullracing?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"> <i class="fab fa-twitter"></i></a>
+    <a href="https://es-la.facebook.com/redbullracing/" target="_blank"> <i class="fab fa-facebook"></i></a>  
+</div>
+
+    </footer>
+</body>
+</html>
